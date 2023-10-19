@@ -82,3 +82,8 @@
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234040.jpg)
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234045.jpg)
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234050.jpg)
+
+## Usando el motor de SupTig de Amazon
+
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/WhatsApp%20Image%202023-10-19%20at%2014.44.10.jpeg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/WhatsApp%20Image%202023-10-19%20at%2014.44.11.jpeg)
