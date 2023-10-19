@@ -1,3 +1,5 @@
+## ARDUINTER 
+
 # Arduino Intervalometro para uso en Astrofotografia
 
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/Schema.png)
