@@ -18,7 +18,7 @@
   Se puede usar para automatizar:
 
   - Astrofotografias
-  - Timelipses
+  - Timelapses
 
   * Solo testeado en cámaras EVIL DSLR CANON hasta el momento.
   * Si encontrais otros usos hacer un commit de estes usos en mi github.
