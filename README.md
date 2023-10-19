@@ -1,5 +1,6 @@
 # Arduino Intervalometro para uso en Astrofotografia
 
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/Schema.png)
 
 ## OBJETIVOS:
 
@@ -65,3 +66,19 @@
         - El button de incremento es usado en el menu principal para empezar a disparar las fotos.
         - El button de incremento es usado en el menu de reset para confirmar el reseteo de los valores.
         - El button de decremento es usado en el menu principal para parar el disparo de fotos.
+
+## Intervalometro funcionando
+
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211219.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211234.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211238.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211246.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211253.jpg)
+
+## Montaje tipo Barn Door
+
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234032.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234036.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234040.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234045.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234050.jpg)
