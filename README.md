@@ -13,6 +13,22 @@
   de este motor con arduino, transformando eso en una unica plataforma accequible para astrofotografia amadora con uso de
   DSLRs.
 
+### ! ATENCIÓN !
+
+  No soy responsable por daños a su equipo de fotografia, antes de hacer uso mejor que tu verifique los parámetros para
+  ser usados en el cable disparador de su cámara, adaptadores etc...
+  
+  He testeado en mis equipos, y el riesgo para testear en sus equipos es su responsabilidad, no enviar voltages maiores que 
+  5v a ningun cable disparador, y antes verificar si tu cámara funciona com un positivo para disparar o si funciona en modo
+  corto de cables para disparar.
+
+  Si teneis dudas mejor adaptar un relay de disparo para funcionar en modo de corto de cables, ya que la maior parte de camaras
+  funciona como si fuera un push button en la punta del disparador.
+
+  Si necesário añadir una resistência en la salida del cable para disminuir el voltage del mismo.
+
+  * Es tu responsabilidad saber como el disparador de su cámara funciona.
+
 ## USOS:
 
   Se puede usar para automatizar:
