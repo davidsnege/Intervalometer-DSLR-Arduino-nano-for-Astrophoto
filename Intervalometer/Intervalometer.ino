@@ -94,12 +94,12 @@ pinMode(A3, INPUT_PULLUP);                              // Button de Menu --
 pinMode(A1, INPUT_PULLUP);                              // Button de decremento / Stop 
 pinMode(A2, INPUT_PULLUP);                              // Button de incremento / Start
 
-pinMode(7, OUTPUT);                                     // Indicador LED de buffer rojo
+pinMode(7, OUTPUT);                                     // Indicador LED de buffer rojo // Activa el transistor y un led para cerra contacto en el obturador de la camara.
 
 lcd.init();                                             // Iniciamos el LCD -- Si no se hace la libreria no funciona  
 lcd.backlight();                                        // Encendemos la luz de background del LCD 0/1 si no hay nada es 1
 
-digitalWrite(7, LOW);                                   // Primer estado del LED de Buffer
+digitalWrite(7, LOW);                                   // Primer estado del LED de Buffer / Obturador Cerrado / Transistor off
 
 // Escribimos por primera vez 
 lcd.setCursor(0, 0);                                    // Posicionamos cursor    
@@ -285,11 +285,11 @@ void TakeFotos(){
   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   // Creamos un bucle, mientras las fotos que configuramos sean más que las tomadas sacamos fotos    
     while(fotosTomadas < fotosTotal){
-      digitalWrite(7, HIGH); // Abre BULB foto       // Ponemos en true (encendido) el pin 6 (donde esta el cable disparador y el led amarillo) (LOW y HIGH estan invertidos OK)
+      digitalWrite(7, HIGH); // Abre BULB foto       // Ponemos en true (encendido) el pin 6 (donde esta el cable disparador y el led amarillo) 
       lcd.setCursor(0, 0);                          
       lcd.print("Sacando Fotos   ");                
       delay(obturadorDelay);                        // Esperamos el tiempo que configuramos en la función del obturador
-      digitalWrite(7, LOW); // Cierra BULB foto    // Ponemos en false (apagado) el pin 6 (donde esta el cable disparador y el led amarillo) para que deje el obturador cerrar (LOW y HIGH estan invertidos OK)
+      digitalWrite(7, LOW); // Cierra BULB foto    // Ponemos en false (apagado) el pin 6 (donde esta el cable disparador y el led amarillo) para que deje el obturador cerrar 
   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   // Atualizando la pantalla con el status actual de la toma y el led de control rojo 
       lcd.setCursor(0, 0);                          
