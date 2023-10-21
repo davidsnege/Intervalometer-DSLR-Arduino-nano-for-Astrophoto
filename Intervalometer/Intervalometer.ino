@@ -89,18 +89,17 @@ if (!i2CAddrTest(0x27)) {                               // Testeo de la puerta I
 lcd = LiquidCrystal_I2C(0x3F, 16, 2);                   // Asignamos lcd a la entidad de la libreria si todo va bien
 }
 
-pinMode(A0, INPUT_PULLUP);                              // Button de Menu
+pinMode(A0, INPUT_PULLUP);                              // Button de Menu ++
+pinMode(A3, INPUT_PULLUP);                              // Button de Menu --
 pinMode(A1, INPUT_PULLUP);                              // Button de decremento / Stop 
 pinMode(A2, INPUT_PULLUP);                              // Button de incremento / Start
 
 pinMode(7, OUTPUT);                                     // Indicador LED de buffer rojo
-pinMode(6, OUTPUT);                                     // Disparador de la cámara / Led indicador amarillo
 
 lcd.init();                                             // Iniciamos el LCD -- Si no se hace la libreria no funciona  
 lcd.backlight();                                        // Encendemos la luz de background del LCD 0/1 si no hay nada es 1
 
 digitalWrite(7, LOW);                                   // Primer estado del LED de Buffer
-digitalWrite(6, 10);                                    // Primer estado del disparador (Funciona al reves en la camara [ HIGH = Apagado / LOW = Disparando ])
 
 // Escribimos por primera vez 
 lcd.setCursor(0, 0);                                    // Posicionamos cursor    
@@ -148,7 +147,13 @@ void loop() {
   if (digitalRead(A0) == LOW) {    // Si el button esta presionado (No se por que se inverte el LOW y no HIGH)
     posMenu += 1;                  // Sumamos uno al posMenu
   }
+  if (digitalRead(A3) == LOW) {    // Si el button esta presionado (No se por que se inverte el LOW y no HIGH)
+    posMenu -= 1;                  // Sumamos uno al posMenu
+  }
   if (posMenu == 6) {              // Si el menu llega a ser mayor que las opciones que tenemos que son 5 o sea si atinge 6
+    posMenu = 0;                   // Volvemos a cero para reiniciar como un bucle de menu sin fim (Si añadimos un button más podemos decrementar esto y ir a frente o atraś)
+  }
+  if (posMenu < 0) {              // Si el menu llega a ser mayor que las opciones que tenemos que son 5 o sea si atinge 6
     posMenu = 0;                   // Volvemos a cero para reiniciar como un bucle de menu sin fim (Si añadimos un button más podemos decrementar esto y ir a frente o atraś)
   }
 }
@@ -280,18 +285,16 @@ void TakeFotos(){
   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   // Creamos un bucle, mientras las fotos que configuramos sean más que las tomadas sacamos fotos    
     while(fotosTomadas < fotosTotal){
-      digitalWrite(6, LOW); // Abre BULB foto       // Ponemos en true (encendido) el pin 6 (donde esta el cable disparador y el led amarillo) (LOW y HIGH estan invertidos OK)
+      digitalWrite(7, HIGH); // Abre BULB foto       // Ponemos en true (encendido) el pin 6 (donde esta el cable disparador y el led amarillo) (LOW y HIGH estan invertidos OK)
       lcd.setCursor(0, 0);                          
       lcd.print("Sacando Fotos   ");                
       delay(obturadorDelay);                        // Esperamos el tiempo que configuramos en la función del obturador
-      digitalWrite(6, HIGH); // Cierra BULB foto    // Ponemos en false (apagado) el pin 6 (donde esta el cable disparador y el led amarillo) para que deje el obturador cerrar (LOW y HIGH estan invertidos OK)
+      digitalWrite(7, LOW); // Cierra BULB foto    // Ponemos en false (apagado) el pin 6 (donde esta el cable disparador y el led amarillo) para que deje el obturador cerrar (LOW y HIGH estan invertidos OK)
   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   // Atualizando la pantalla con el status actual de la toma y el led de control rojo 
       lcd.setCursor(0, 0);                          
-      lcd.print("Guardando Fotos ");                
-      digitalWrite(7, HIGH);                        
-      delay(delayBuffer);                           // Esperamos el tiempo configurado en el Buffer para que la camara tenga tiempo de guardar la foto antes que intentemos sacar otra
-      digitalWrite(7, LOW);                         
+      lcd.print("Guardando Fotos ");                                  
+      delay(delayBuffer);                           // Esperamos el tiempo configurado en el Buffer para que la camara tenga tiempo de guardar la foto antes que intentemos sacar otra                      
   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   // Atualizando el contador de fotos tomadas      
       fotosTomadas++;                               // Incrementamos el contador de fotos ya tomadas
@@ -310,8 +313,6 @@ void TakeFotos(){
   // Este bucle es responsable por parar de tomar fotos, volver el estado de startStop y printar las infos en la pantalla
       if(fotosTomadas == fotosTotal){               // Si ya tomamos todas las fotos, paramos todo y volvemos valores a cero
         startStop = 0;                              // Eso hace que el menu de Start Stop vuelva a cero
-        digitalWrite(6, HIGH);                      // Dejamos el Obturador Cerrado (pero el led encendido, porque los LOW y HIGH estan invertidos)
-        digitalWrite(7, LOW);                       // Apagamos el led rojo para saber que no estamos ejecutando nada  
   // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   // Actualizamos todas las infos de la pantalla       
         lcd.setCursor(0, 0);
