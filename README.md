@@ -100,6 +100,8 @@
 
 ## Montaje tipo Barn Door
 
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_06.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_07.jpg)
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_08.jpg)
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_09.jpg)
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_01.jpg)
@@ -107,6 +109,5 @@
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_03.jpg)
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_04.jpg)
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_05.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_06.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_07.jpg)
+
 
