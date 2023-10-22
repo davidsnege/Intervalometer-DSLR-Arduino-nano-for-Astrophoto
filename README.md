@@ -61,9 +61,12 @@
 
   - Arduino Nano (generico de Amazon)
   - 2 Leds (Rojo, Amarillo)
-  - 2 Resistencias de 10k
+  - 2 Resistores de 10k
   - 3 Push Buttons
   - LCD 16x2 (Interfaz I2C 'El que tiene solo 4 conectores')
+  - 1 Transistor NPN BC547
+  - 2 Resistores de 30k
+  - 1 Jack de audio hembra (cables adaptadores para la entrada de su cámara)
 
 ## TESTEADO EN:
     
