@@ -78,13 +78,14 @@
 ## FUNCIONAMIENTO:
 
 1. Button A0 de navegación ciclica para el menu
-1. Button A2 de Incremento de valores
-1. Button A1 de Decremento de valores
+2. Button A2 de Incremento de valores
+3. Button A1 de Decremento de valores
+4. Button A3 de Decremento de menu
 
         - El button de incremento es usado en el menu principal para empezar a disparar las fotos.
         - El button de incremento es usado en el menu de reset para confirmar el reseteo de los valores.
         - El button de decremento es usado en el menu principal para parar el disparo de fotos.
-
+        
 ## Intervalometro funcionando
 
 ![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211219.jpg)
