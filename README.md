@@ -88,21 +88,24 @@
         
 ## Intervalometro funcionando
 
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211219.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211234.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211238.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211246.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231015_211253.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_01.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_02.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_03.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_04.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_05.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_06.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_07.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_08.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/int_09.jpg)
 
 ## Montaje tipo Barn Door
 
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234032.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234036.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234040.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234045.jpg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/IMG_20231013_234050.jpg)
-
-## Usando el motor de SupTig de Amazon
-
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/WhatsApp%20Image%202023-10-19%20at%2014.44.10.jpeg)
-![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/WhatsApp%20Image%202023-10-19%20at%2014.44.11.jpeg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_01.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_02.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_03.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_04.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_05.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_06.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_07.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_08.jpg)
+![schematico](https://github.com/davidsnege/Intervalometer-DSLR-Arduino-nano-for-Astrophoto/blob/main/images/barn_09.jpg)
